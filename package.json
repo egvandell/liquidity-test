@@ -1,7 +1,7 @@
 {
   "name": "liquidity-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project project was created to show the following functionalities:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^4.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egvandell/liquidity-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/egvandell/liquidity-test/issues"
+  },
+  "homepage": "https://github.com/egvandell/liquidity-test#readme"
 }

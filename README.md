@@ -17,8 +17,8 @@ npx hardhat
 npm install @nomicfoundation/hardhat-toolbox
 npm install @openzeppelin/contracts
 
-npx create-next-app sandbox --javascript
-
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
 
 # Sample Hardhat Project
 
