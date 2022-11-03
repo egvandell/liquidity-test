@@ -13,7 +13,7 @@ async function main() {
   await engineationLiquidity.deployed();
 
   console.log(
-    `Deployed Token.sol to ${engineationLiquidity.address}`
+    `Deployed EngineationLiquidity.sol to ${engineationLiquidity.address}`
   );
 }
 

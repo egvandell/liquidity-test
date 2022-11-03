@@ -4,7 +4,13 @@ pragma solidity ^0.8.4;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract EngineationLiquidity is ERC20 {
+    uint256 private myVarForTesting;
+
     constructor() ERC20("Engineation Liquidity", "ENGL") {
         _mint(msg.sender, 1000000 * 10 ** decimals());
+    }
+
+    function Tester(uint256 _newVal) public {
+        myVarForTesting = _newVal;
     }
 }
